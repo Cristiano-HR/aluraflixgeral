@@ -1,45 +1,52 @@
-body{
+body {
     background-color: black;
     color: aquamarine;
     font-family: "Verdana", sans-serif;
     margin: 0px;
-    }
-h1{
+}
+
+h1 {
 
     color: blanchedalmond;
     font-size: 40px;
 }
 
-p{
+p {
     font-size: 25px;
 }
-header{
-border-bottom: solid 3 rgb(21, 189, 35);
-margin: 2px;
-padding: 10px;
-color: azure;
+
+header {
+    border-bottom: solid 3 rgb(21, 189, 35);
+    margin: 2px;
+    padding: 10px;
+    color: azure;
 }
-.chamada{
+
+.chamada {
     background: rgb(237, 100, 210);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-.chamada-texto{
+
+.chamada-texto {
     margin-right: 8%;
 
 }
-img{
+
+img {
     height: 200px;
 }
-.categoria-video{
-    display:flex;
+
+.categoria-video {
+    display: flex;
     overflow-x: auto;
-gap: 15px;
+    gap: 15px;
 
 }
-.categoria{
+
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
 }
